@@ -1,0 +1,159 @@
+html {
+  background-color: #fcfcfc;
+  font-family: poppins, sans-serif;
+}
+
+.logo {
+  width: 100px;
+}
+
+h2,
+.adopt {
+  color: #2f436e;
+}
+
+.current {
+  background-color: rgba(47, 67, 110, 1);
+}
+
+.current a {
+  color: #fcfcfc;
+}
+
+nav {
+  background-color: #fcfcfc;
+}
+
+.nav-top {
+  box-shadow: 0 0 20px rgba(47, 67, 110, .1);
+}
+
+nav a {
+  color: #2f436e;
+  border: 0;
+}
+
+.container {
+  max-height: 45em;
+  overflow: hidden;
+  bottom: 50%;
+}
+
+.container-2 {
+  max-height: 20em;
+  overflow: hidden;
+  bottom: 50%;
+}
+
+.banner-content {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 0 0 20px rgba(47, 67, 110, .5);
+  color: #fcfcfc;
+}
+
+.btn {
+  background-color: rgba(256, 256, 256, 0);
+  border: 0;
+  color: #2f436e;
+}
+
+.btn-ghost {
+  border: solid 3px #2f436e;
+  border-radius: 100px;
+}
+
+.btn-ghost:hover {
+  border: solid 3px #73c5e5;
+  border-radius: 100px;
+}
+
+.btn:hover {
+  background-color: rgba(256, 256, 256, .1);
+  color: #73c5e5;
+  transition: all .2s linear;
+}
+
+.adopt-btn {
+  border: solid 3px rgba(47, 67, 110, 1);
+  background-color: rgba(47, 67, 110, 1);
+  border-radius: 100px;
+  color: #fcfcfc;
+  box-shadow: 0 0 20px rgba(47, 67, 110, .2);
+}
+
+.adopt-btn:hover {
+  border: solid 3px;
+  border-color: #fcfcfc;
+  background-color: rgba(256, 256, 256, 1);
+  border-radius: 100px;
+  color: #2f436e;
+}
+
+.card {
+  background-color: #fcfcfc;
+  color: #2f436e;
+  border-radius: 8px;
+  position: relative;
+}
+
+.card img {
+  border-radius: 8px;
+}
+
+.card:hover {
+  background-color: #73c5e5;
+  border-radius: 8px;
+  transition: ease-in-out .2s;
+}
+
+.card:hover img {
+  filter: grayscale(1);
+  border-radius: 8px;
+  transition: ease-in-out .2s;
+}
+
+.card:hover .adopt-btn {
+  border: solid 3px;
+  border-color: #fcfcfc;
+  background-color: rgba(256, 256, 256, 1);
+  border-radius: 100px;
+  color: #2f436e;
+  transition: ease-in-out .2s;
+}
+
+.sponsors {
+  background-color: rgba(133, 207, 250, .25);
+}
+
+section ul {
+  color: #2f436e;
+}
+
+.help h3,
+.question {
+  color: #2f436e;
+}
+
+.more-questions,
+.chocolate {
+  color: #2f436e;
+}
+
+.more-questions:hover,
+.chocolate:hover {
+  color: #2f436e;
+  transition: ease-in-out .2s;
+}
+
+.card:hover .chocolate {
+  color: #fff;
+  transition: ease-in-out .2s;
+}
+
+.contact {
+  border-color: #2f436e;
+  color: #2f436e;
+}
