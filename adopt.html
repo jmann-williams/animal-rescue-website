@@ -15,21 +15,45 @@
 <body>
 
   <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
     <li><a href="#nav">Jump to navigation</a></li>
-    <li><a href="#main">Skip to main content</a></li>
-    <li><a href="#banner">Jump to main banner</a></li>
-    <li><a href="#heading">Jump to page heading</a></li>
-    <li><a href="#contact-name">Jump to contact name</a></li>
+    <li><a href="#banner-info">Jump to banner information</a></li>
+    <li><a href="#banner-title">Jump to banner title</a></li>
+    <li><a href="#banner-sentence">Jump to banner sentence</a></li>
+    <li><a href="#banner-img">Jump to banner image</a></li>
+    <li><a href="#a-cats">Jump to Huey, Dewey and Louie</a></li>
+    <li><a href="cat">Jump to cat's information</a></li>
+    <li><a href="#id">Skip to the cats' animal ID information</a></li>
+    <li><a href="#si">Skip to the cats' species information</a></li>
+    <li><a href="#bi">Skip to the cats' breed information</a></li>
+    <li><a href="#ai">Skip to the cats' age information</a></li>
+    <li><a href="#gi">Skip to the cats' gender information</a></li>
+    <li><a href="#szi">Skip to the cats' size information</a></li>
+    <li><a href="#ci">Skip to the cats' color information</a></li>
+    <li><a href="#sni">Skip to the cats' spayed/neutered information</a></li>
+    <li><a href="#di">Skip to the cats' declawed information</a></li>
+    <li><a href="#hti">Skip to the cats' housetrained information</a></li>
+    <li><a href="#sin">Skip to the cats' site information</a></li>
+    <li><a href="#li">Skip to the cats' location information</a></li>
+    <li><a href="#idi">Skip to the cats' intake date information</a></li>
+    <li><a href="#adoption-application">Jump to adoption application</a></li>
+    <li><a href="#sentence">Jump to page sentence</a></li>
+    <li><a href="#first-name">Jump to first name</a></li>
+    <li><a href="#last-name">Jump to last name</a></li>
+    <li><a href="#address">Jump to address</a></li>
+    <li><a href="#city">Jump to city</a></li>
+    <li><a href="#province">Jump to province</a></li>
     <li><a href="#email">Jump to email field</a></li>
-    <li><a href="#message">Jump to message</a></li>
+    <li><a href="#postal-code">Jump to postal code</a></li>
+    <li><a href="#phone">Jump to phone number</a></li>
     <li><a href="#send">Jump to send</a></li>
-    <li><a href="#contentinfo">Jump to footer</a></li>
+    <li><a href="#home">Jump to go back home</a></li>
   </ul>
 
-  <header class="grid fixed zindex-3 w-1 grid-middle" role="banner" id="banner" tabindex="0">
+  <header class="grid fixed zindex-3 w-1 grid-middle" role="banner">
     <nav class="unit island-1-2 pad-b-2 giga unit-xs-cenered unit-s-centered xs-1 s-1 m-1 l-1 nav-top" role="navigation" id="nav" tabindex="0">
       <div class="icon text-center xs-1 s-1 m-1 l-1-4 i-48">
-        <img class="logo" src="images/qhs-logo.svg" alt="">
+        <img class="logo" src="images/qhs-logo.svg" alt="logo">
       </div>
       <div class="unit gutter right text-center xs-1 s-1 m-1 l-3-4">
         <ul class="ib list-group-inline v-align push-0">
@@ -43,7 +67,6 @@
   </header>
 
   <main role="main" id="main" tabindex="0">
-
     <div class="container relative banner xs-1 s-1 m-1 l-1">
       <div class="embed embed-16by9">
         <img class="img-flex embed-item" src="images/banner-4.jpg" alt="kittens">
@@ -52,24 +75,25 @@
   </main>
 
   <div>
-    <h1 class="giga adopt gutter-2 pad-t-2 push-0 push-1-2 text-upper bold" id="a-cat" tabindex="0">Huey, Dewey and Louie</h1>
+    <h1 class="giga adopt gutter-2 pad-t-2 push-0 push-1-2 text-upper bold" id="a-cats" tabindex="0">Huey, Dewey and Louie</h1>
   </div>
+
   <article class="grid">
     <div class="unit gutter-2">
       <ul class="push list-group bold">
-        <li>Animal ID</li>
-        <li>Species</li>
-        <li>Breed</li>
-        <li>Age</li>
-        <li>Gender</li>
-        <li>Size</li>
-        <li>Color</li>
-        <li>Spayed/Neutered</li>
-        <li>Declawed</li>
-        <li>Housetrained</li>
-        <li>Site</li>
-        <li>Location</li>
-        <li>Intake Date</li>
+        <li id="id" tabindex="0">Animal ID</li>
+        <li id="si" tabindex="0">Species</li>
+        <li id="bi" tabindex="0">Breed</li>
+        <li id="ai" tabindex="0">Age</li>
+        <li id="gi" tabindex="0">Gender</li>
+        <li id="szi" tabindex="0">Size</li>
+        <li id="ci" tabindex="0">Color</li>
+        <li id="sni" tabindex="0">Spayed/Neutered</li>
+        <li id="di" tabindex="0">Declawed</li>
+        <li id="hti" tabindex="0">Housetrained</li>
+        <li id="sin" tabindex="0">Site</li>
+        <li id="li" tabindex="0">Location</li>
+        <li id="idi" tabindex="0">Intake Date</li>
       </ul>
     </div>
     <div class="unit gutter-2">
@@ -93,11 +117,11 @@
 
   <section class="grid" id="info" tabindex="0">
     <div class="gutter-2 pad-t-2 unit" id="main-info" tabindex="0">
-      <h2 class="info giga push-0 push-1-2 text-left text-upper bold" id="heading" tabindex="0">Adoption Application</h2>
+      <h2 class="info giga push-0 push-1-2 text-left text-upper bold" id="adoption-application" tabindex="0">Adoption Application</h2>
       <form method="POST" action="https://formspree.io/jesse.mann.williams@gmail.com">
         <div class="unit push xs-1 s-1 m-1-2 l-1-2 left gutter-1-2">
-          <label for="contact-name">First Name</label>
-          <input class="contact" id="contact-name" name="contact-name" required="">
+          <label for="first-name">First Name</label>
+          <input class="contact" id="first-name" name="first-name" required="">
         </div>
         <div class="unit push xs-1 s-1 m-1-2 l-1-2 right gutter-1-2">
           <label for="last-name">Last Name</label>
