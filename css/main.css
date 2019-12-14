@@ -34,12 +34,14 @@ nav a {
 }
 
 .container {
+  top: 50%;
   max-height: 45em;
   overflow: hidden;
   bottom: 50%;
 }
 
 .container-2 {
+  top: 50%;
   max-height: 20em;
   overflow: hidden;
   bottom: 50%;
